@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sylvie's Bistro</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/IndexStyle.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/style1.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/lato.css">
+	<style type="text/css">
+		body, h1, h3, h4, h5, h6{
+			font-family: "Lato", sans-serif;
+		}
+	</style>
+</head>
+<body>
+<div class='top'>
+	<div class="bar card animate-top black" id='Navbar'>
+		<a class="bar-item button disabled">HOME</a>
+		<a href="menu.html" class="bar-item button hide-small">MENU</a>
+		<a href="offers.html" class="bar-item button hide-small">OFFERS</a>
+		<a href="review.html" class="bar-item button hide-small">REVIEW</a>
+		<a href="contact.html" class="bar-item button hide-small">CONTACT</a>
+	</div>
+</div>
+
+<div id="MobNav" class="bar-block black hide hide-large hide-medium">
+	<a href="menu.html" class="bar-item button">MENU</a>
+	<a href="offers.html" class="bar-item button">OFFERS</a>
+	<a href="review.html" class="bar-item button">REVIEW</a>
+	<a href="contact.html" class="bar-item button">CONTACT</a>
+</div>
+
+<div class="bgimg display-container opacity-min" id="home">
+	<div class="display-middle" style="white-space: nowrap;">
+		<span class="center padding-large black xlarge wide animate-opacity">SYLVIE'S BISTRO</span>	
+	</div>
+</div>
+<div class="content container padding-64" id="aboutus">
+	<h3 class="center">ABOUT US</h3>
+	<p class="center"><em>Getting you quality food at affordable prices, since 1995.</em></p>
+	<p>We, at Sylvie's Bistro, are committed to redefine the experience of Casual Dining with our delicious ensemble of pizzas, pastas, and more. Chef Sylvie, the person behind this awesome experience, came back from Italy to give back to the community she grew up in. What started off as a pizza bistro, has now turned into a complete Italian casual-dine restaurant, well liked by anyone to comes here, for the quality, price, and the energy of the place. We promise great taste, beautiful ambience and fine quality in all our products.
+    </p>
+   <h4> Commitment to quality</h4>
+   <p>We use the finest locally-sourced ingredients, with the cleanest production techniques, to give you clean, safe and delicious food, that feeds your soul. For that to be possible we abide by the strictest food industry norms and stsndards. Thus, you get food that you can trust, and love, every single time you come here.</p>
+</div>
+<script type="text/javascript">
+	function toggleFunction(){
+		var x = document.getElementById("MobNav");
+		if (x.className.indexOf("show") == -1) {
+			x.className += "show";
+		}
+		else{
+			x.className = x.className.replace(" show", "");
+		}
+	}
+</script>
+</body>
+</html>
